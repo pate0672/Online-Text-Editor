@@ -1,0 +1,79 @@
+body {
+  background-color: rgb(34, 34, 34);
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#text-output {
+  min-height: 200px;
+  border-radius: 3px;
+  padding: 10px;
+  word-wrap: break-word;
+  text-align: left;
+}
+#bold {
+  font-weight: bold;
+}
+#italic {
+  font-style: italic;
+}
+#underline {
+  text-decoration: underline;
+}
+#text-input {
+  min-height: 200px;
+}
+
+.editor .col {
+  max-width: 50%;
+  flex-basis: 50%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.small {
+  font-size: 1rem;
+}
+.regular {
+  font-size: 1.5rem;
+}
+
+.large {
+  font-size: 2rem;
+}
+#row1 {
+  background-color: rgb(190, 190, 190);
+  margin: 0;
+  padding-top: 1rem;
+  border-top: 1px solid rgb(172, 172, 172);
+}
+button {
+  margin-bottom: 1rem;
+  margin-right: 7px;
+}
+h1 {
+  background-color: rgb(212, 212, 212);
+  margin: 0;
+}
+select {
+  font-size: 1.5rem;
+  width: 30%;
+}
